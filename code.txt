@@ -1,0 +1,6 @@
+docker compose run --rm --entrypoint *\
+ cerbot certonly --webroot -w /var/www/certbot \
+  --email labanov.st@gmaul.com
+  -d 94.241.169.16
+  --agree-tos
+  --force-renewal" certbot
